@@ -26,6 +26,48 @@
   ga('create', 'UA-51451318-1', 'chairsandtables.org');
   ga('send', 'pageview');
 
+var navBar = {
+  loadCSS: function() {
+    var headID = document.getElementsByTagName('head')[0];
+    var cssNode = document.createElement('link');
+    cssNode.type = 'text/css';
+    cssNode.rel = 'stylesheet';
+   <!--cssNode.href = ''-->
+    cssNode.media = 'screen';
+    headID.appendChild(cssNode);
+  },
+
+  insertNav: function(navBody) {
+    this.navContainer = document.createElement('div');
+    <!--this.navContainer.id = '';-->
+    document.body.insertBefore(this.navContainer, document.body.children[0])
+    this.navContainer.innerHTML = navBody;
+  },
+
+  bottom: function(margin) {
+    this.navContainer.style.setProperty('margin-bottom', margin, "");
+  },
+};
+
+navBar.barHTML = '\
+<div id="jcn-nav">\
+  <div id="">\
+  </div>
+\
+  <ul>\
+    <li><a href=""></a></li>\
+    <li><a href=""></a></li>\
+    <li><a href=""></a></li>\
+    <li><a href=""></a></li>\
+    <li><a href=""></a></li>\
+    <li><a href=""></a></li>\
+  </ul>\
+</div>\
+';
+
+navBar.loadCSS();
+navBar.insertNav(navBar.barHTML);
+
 </script>
   
   
