@@ -10,7 +10,7 @@
 <br/>If you're interested in working (or playing) with us, hit <a href="mailto:build@chairsandtables.org?subject=Open Sesame">build</a>.</p>
 <p>Love and unlimited <button onclick="myFunction()">*fistbumps*</button>,
 <br/><a href="http://twitter.com/asad_ch">+Asad</a> <a href="http://twitter.com/jonathoncomfort">&AMP;Jonathon</a>
-<p><strong>ps.</strong> Some projects we're currently working on are <a href="http://findingyourselflost.tumblr.com">an amateur podcast</a>, building a 1000 tables, and a project for Canada's 150th in 2017.</p>
+<p><strong>ps.</strong> Some projects we're currently working on are <a href="http://findingyourselflost.tumblr.com">an amateur podcast</a>, building a 1000 tables, and a project for Canada's 150th.</p>
   </font></center>
 
 <script>
@@ -26,47 +26,6 @@
   ga('create', 'UA-51451318-1', 'chairsandtables.org');
   ga('send', 'pageview');
 
-var navBar = {
-  loadCSS: function() {
-    var headID = document.getElementsByTagName('head')[0];
-    var cssNode = document.createElement('link');
-    cssNode.type = 'text/css';
-    cssNode.rel = 'stylesheet';
-   <!--cssNode.href = ''-->
-    cssNode.media = 'screen';
-    headID.appendChild(cssNode);
-  },
-
-  insertNav: function(navBody) {
-    this.navContainer = document.createElement('div');
-    <!--this.navContainer.id = '';-->
-    document.body.insertBefore(this.navContainer, document.body.children[0])
-    this.navContainer.innerHTML = navBody;
-  },
-
-  bottom: function(margin) {
-    this.navContainer.style.setProperty('margin-bottom', margin, "");
-  },
-};
-
-navBar.barHTML = '\
-<div id="jcn-nav">\
-  <div id="">\
-  </div>
-\
-  <ul>\
-    <li><a href=""></a></li>\
-    <li><a href=""></a></li>\
-    <li><a href=""></a></li>\
-    <li><a href=""></a></li>\
-    <li><a href=""></a></li>\
-    <li><a href=""></a></li>\
-  </ul>\
-</div>\
-';
-
-navBar.loadCSS();
-navBar.insertNav(navBar.barHTML);
 
 </script>
   
