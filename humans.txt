@@ -8,40 +8,40 @@
 
 # THANKS
     
-    Our twins
-    Our mentors
-    Our families
-    Our teachers
-    Ted Lee
-    Pippin Lee
-    Riley Shaw
-    Daniel Ting
-    Phil Schleihauf
-    Vaughn DiMarco
-    Chris Cooper
-    Henry DeValence
-    Frank Chimero
-	Paul Ford
-	Bianca Giaver
-	Scott Thrift
-	Ari Kuschnir
-	Jonathan Harris
-	Sep Kamvar
-	Maptia
-	Elle Luna
-	Eric Windeler
-	Chairs of Hunt Library
-	Robert Krulwich
-	Jad Abumrad
-	Ira Glass (and the Gap)
-	Roman Mars
-	Tim Hwang
-	Christina Xu
-	Robin Sloan
-	Brandon Stanton
-	Bill Cunningham
-	Maria Popova
-	______________ ... 
+Our twins
+Our mentors
+Our families
+Our teachers
+Ted Lee
+Pippin Lee
+Riley Shaw
+Daniel Ting
+Phil Schleihauf
+Vaughn DiMarco
+Chris Cooper
+Henry DeValence
+Frank Chimero
+Paul Ford
+Bianca Giaver
+Scott Thrift
+Ari Kuschnir
+Jonathan Harris
+Sep Kamvar
+Maptia
+Elle Luna
+Eric Windeler
+Chairs of Hunt Library
+Robert Krulwich
+Jad Abumrad
+Ira Glass (and the Gap)
+Roman Mars
+Tim Hwang
+Christina Xu
+Robin Sloan
+Brandon Stanton
+Bill Cunningham
+Maria Popova
+______________ ... 
 
 # TECHNOLOGY
 
