@@ -1,0 +1,93 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Queen's Hack Nights</title>
+
+  <style>
+    body {
+      background-color: white;
+      color: #55ff55;
+      font-family: monospace;
+    }
+    .output {
+      color: black;
+    }
+    .active:after {
+
+      content: '_';
+    }
+  </style>
+</head>
+
+<body>
+  <center>
+  <main class="prompt">
+    <p>Hosted monthly.</p>
+    <br/>Theme: Secrets</p>
+    <br/>237 Rushton Road, July 23rd, start time 7:30 pm
+    <p>Instructions:
+      <p>1. Bring food to share.
+      <br/>>2. Bring people to share.*
+      <br/>3. Bring an open mind, heart, and ears.
+      <br/>4. Bring a strangers-themed story to share.**
+
+    <p>*Optional.
+    <br/>**Stories of secrets, secret identities, secret places, _______.
+
+    </p>
+    <p>Questions, comments, concerns? Email Asad at ac@chairsandtables.org.
+  </main>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script>
+    var $lines = $('.prompt p');
+    $lines.hide();
+    var lineContents = new Array();
+
+    var terminal = function() {
+
+      var skip = 0;
+      typeLine = function(idx) {
+        idx == null && (idx = 0);
+        var element = $lines.eq(idx);
+        var content = lineContents[idx];
+        if(typeof content == "undefined") {
+          $('.skip').hide();
+          return;
+        }
+        var charIdx = 0;
+
+        var typeChar = function() {
+          var rand = Math.round(Math.random() * 150) + 25;
+
+          setTimeout(function() {
+            var char = content[charIdx++];
+            element.append(char);
+            if(typeof char !== "undefined")
+              typeChar();
+            else {
+              element.append('<br/><span class="output">' + element.text().slice(9, -1) + '</span>');
+              element.removeClass('active');
+              typeLine(++idx);
+            }
+          }, skip ? 0 : rand);
+        }
+        content = 'echo "' + content + '"';
+        element.append('~$ ').addClass('active');
+        typeChar();
+      }
+
+      $lines.each(function(i) {
+        lineContents[i] = $(this).text();
+        $(this).text('').show();
+      });
+
+      typeLine();
+    }
+
+    terminal();
+  </script>
+</center>
+</body>
+</html>
