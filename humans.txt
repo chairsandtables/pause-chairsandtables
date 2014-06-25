@@ -2,12 +2,10 @@
 # The humans responsible
 
 # TEAM
-
-    Asad Chishti -- storycollector, author -- @asad_ch
-    Jonathon C. Reed -- storyteller, author -- @jonathoncomfort
+Asad Chishti -- storycollector, author -- @asad_ch
+Jonathon C. Reed -- storyteller, author -- @jonathoncomfort
 
 # THANKS
-    
 Our twins
 Our mentors
 Our families
@@ -48,5 +46,4 @@ Maria Popova
 ______________ ... 
 
 # TECHNOLOGY
-
-    HTML
+HTML
