@@ -1,5 +1,7 @@
 html {
 	font-family: Helvetica, Arial, sans-serif;
+	font-color: #fff;
+	background-color: #000;
 }
 
 @mixin coverer {
