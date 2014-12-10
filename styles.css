@@ -1,9 +1,23 @@
 @import url(http://fonts.googleapis.com/css?family=Gentium+Basic:400,400italic|Open+Sans:800);
 
+@mixin coverer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 html {
 	font-family: 'Gentium Basic', serif;
 	font-weight: 400;
 }
+
+body {
+	background-color: #fff;
+}
+
+/*Text formatting*/
 
 h1 {
 	font-family: 'Open Sans', sans-serif;
@@ -11,16 +25,11 @@ h1 {
 	text-transform: uppercase;
 }
 
-body {
-	background-color: #fff;
-}
-
-@mixin coverer {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+p {
+	font-family: 'Gentium Basic', serif;
+	font-weight: 400;
+	max-width: 500px;
+	margin: 0 auto;
 }
 
 /* Links */
