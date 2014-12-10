@@ -15,7 +15,6 @@ html {
 
 body {
 	background-color: #fff;
-	margin-bottom: 150px;
 }
 
 /*Text formatting*/
@@ -149,8 +148,7 @@ img:hover {
 	margin: 85px auto;
 }
 
-/* About photo positioning */
+/* About positioning */
 .about {
-	margin-bottom: 85px;
-}
+	margin-bottom: 150px;
 }
