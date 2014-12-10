@@ -1,15 +1,18 @@
+<link href='http://fonts.googleapis.com/css?family=Gentium+Basic:400,400italic|Open+Sans:800' rel='stylesheet' type='text/css'>
+
+<style>
 html {
-  font-family: Helvetica, Arial, sans-serif;
+	font-family: 'Gentium Basic', serif;
+	font-weight: 400;
 }
 
 h1 {
-  font-family: monospace;
+	font-family: font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
 }
 
 body {
-	background: url('http://chairsandtables.org/img/IMG_9808-the-flight-web.jpg') no-repeat fixed center;
-	background-size: cover;
-	width: 100%;
+	background-color: #fff;
 }
 
 @mixin coverer {
@@ -92,3 +95,5 @@ img:hover {
   color: #111;
   border-color: #111;
 }
+
+</style>
