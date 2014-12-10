@@ -1,16 +1,4 @@
-html {
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-h1 {
-  font-family: monospace;
-}
-
-body {
-	background: url('http://chairsandtables.org/img/IMG_9808-the-flight-web.jpg') no-repeat fixed center;
-	background-size: cover;
-	width: 100%;
-}
+@import url(http://fonts.googleapis.com/css?family=Gentium+Basic:400,400italic|Open+Sans:800);
 
 @mixin coverer {
   position: absolute;
@@ -18,6 +6,40 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+html {
+	font-family: 'Gentium Basic', serif;
+	font-weight: 400;
+}
+
+body {
+	background-color: #fff;
+}
+
+/*Text formatting*/
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	font-size: 32px;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-family: 'Gentium Basic', serif;
+	font-weight: 400;
+	font-size: 32px;
+	font-style: italic;
+	margin: 0 0 75px 0;
+}
+
+p {
+	font-family: 'Gentium Basic', serif;
+	font-weight: 400;
+	font-size: 18px;
+	max-width: 500px;
+	margin: 15px auto 0 auto;
 }
 
 /* Links */
@@ -38,9 +60,15 @@ a:hover {
 a:active {
   color: #FC2B3B;
 }
+a img {
+  vertical-align: bottom;
+  border-width: 0;
+  border-bottom: 0px;
+}
 a:hover img {
   vertical-align: bottom;
   border-width: 0;
+  border-bottom: 0px;
 }
 
 img:hover {
@@ -53,7 +81,7 @@ img:hover {
 .black a:link,
 .black a:visited {
   color: #000;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #aaa;
 }
 .black a:link.image,
 .black a:link.video {
@@ -64,6 +92,28 @@ img:hover {
   border-color: #333;
 }
 .black a:active {
+  color: #aaa;
+  border-color: #aaa;
+}
+
+/* White */
+.white {
+	color: #fff;
+}
+.white a:link,
+.white a:visited {
+  color: #fff;
+  border-bottom: 1px solid #ccc;
+}
+.white a:link.image,
+.white a:link.video {
+  border-width: 0;
+}
+.white a:hover {
+  color: #fff;
+  border-color: #fff;
+}
+.white a:active {
   color: #ccc;
   border-color: #ccc;
 }
@@ -91,4 +141,14 @@ img:hover {
 .gray a:active {
   color: #111;
   border-color: #111;
+}
+
+/* Logo positioning */
+.logo {
+	margin: 85px auto;
+}
+
+/* About positioning */
+.about {
+	margin-bottom: 75px;
 }
