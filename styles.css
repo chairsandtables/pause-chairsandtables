@@ -32,7 +32,7 @@ h2 {
 	font-weight: 400;
 	font-size: 32px;
 	font-style: italic;
-	margin: 0 0 65px 0;
+	margin: 0 0 75px 0;
 }
 
 p {
@@ -147,4 +147,10 @@ img:hover {
 /* Logo positioning */
 .logo {
 	margin: 85px auto;
+}
+
+/* About photo positioning */
+.about {
+	margin-bottom: 85px;
+}
 }
