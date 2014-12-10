@@ -15,6 +15,7 @@ html {
 
 body {
 	background-color: #fff;
+	margin-bottom: 75px;
 }
 
 /*Text formatting*/
@@ -31,7 +32,7 @@ h2 {
 	font-weight: 400;
 	font-size: 32px;
 	font-style: italic;
-	margin: 0 0 25px 0;
+	margin: 0 0 50px 0;
 }
 
 p {
@@ -143,7 +144,7 @@ img:hover {
   border-color: #111;
 }
 
-/*Logo positioning*/
+/* Logo positioning */
 .logo {
 	margin: 85px auto;
 }
