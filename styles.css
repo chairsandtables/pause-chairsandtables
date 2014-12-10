@@ -26,6 +26,14 @@ h1 {
 	text-transform: uppercase;
 }
 
+h2 {
+	font-family: 'Gentium Basic', serif;
+	font-weight: 400;
+	font-size: 32px;
+	font-style: italic;
+	margin: 10px 0 10px 0;
+}
+
 p {
 	font-family: 'Gentium Basic', serif;
 	font-weight: 400;
