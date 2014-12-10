@@ -2,6 +2,10 @@ html {
   font-family: Helvetica, Arial, sans-serif;
 }
 
+h1 {
+  font-family: monospace;
+}
+
 body {
 	background: url('http://chairsandtables.org/img/IMG_9808-the-flight-web.jpg') no-repeat fixed center;
 	background-size: cover;
