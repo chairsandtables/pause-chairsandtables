@@ -52,6 +52,10 @@ a:hover {
 a:active {
   color: #FC2B3B;
 }
+a img {
+	vertical-align: bottom;
+  border-width: 0;
+}
 a:hover img {
   vertical-align: bottom;
   border-width: 0;
@@ -96,7 +100,7 @@ img:hover {
   border-width: 0;
 }
 .white a:hover {
-  color: #333;
+  color: #fff;
   border-color: #fff;
 }
 .white a:active {
