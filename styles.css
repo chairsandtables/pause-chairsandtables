@@ -53,12 +53,14 @@ a:active {
   color: #FC2B3B;
 }
 a img {
-	vertical-align: bottom;
+  vertical-align: bottom;
   border-width: 0;
+  border-bottom: 0px;
 }
 a:hover img {
   vertical-align: bottom;
   border-width: 0;
+  border-bottom: 0px;
 }
 
 img:hover {
@@ -71,7 +73,7 @@ img:hover {
 .black a:link,
 .black a:visited {
   color: #000;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #aaa;
 }
 .black a:link.image,
 .black a:link.video {
@@ -82,8 +84,8 @@ img:hover {
   border-color: #333;
 }
 .black a:active {
-  color: #ccc;
-  border-color: #ccc;
+  color: #aaa;
+  border-color: #aaa;
 }
 
 /* White */
