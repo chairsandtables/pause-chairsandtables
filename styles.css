@@ -82,6 +82,28 @@ img:hover {
   border-color: #ccc;
 }
 
+/* White */
+.white {
+	color: #fff;
+}
+.white a:link,
+.white a:visited {
+  color: #fff;
+  border-bottom: 1px solid #ccc;
+}
+.white a:link.image,
+.white a:link.video {
+  border-width: 0;
+}
+.white a:hover {
+  color: #333;
+  border-color: #fff;
+}
+.white a:active {
+  color: #ccc;
+  border-color: #ccc;
+}
+
 /* Red */
 
 .red {
