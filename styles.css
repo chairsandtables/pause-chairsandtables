@@ -212,7 +212,15 @@ img:hover {
 #vis .explore-complement-4 { background-color: #232423 }
 
 /* end */
+#vis .logo { 
 
+  margin:0; padding: 20px;
+  background: #fff;
+  color: #000;
+  font: 12px/1.33 "Helvetica Neue", Helvetica, sans-serif;
+  text-align:left;
+  max-width: 800px;
+}
 
 #vis body {
   margin:0; padding: 20px;
