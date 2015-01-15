@@ -24,6 +24,17 @@ body {
 	background-color: #fff;
 }
 
+img.lettering {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.content {
+  overflow: hidden;
+  text-align: center;
+}
+
 /*Text formatting*/
 
 h1 {
