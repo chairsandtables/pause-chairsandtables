@@ -15,6 +15,28 @@ body {
 	text-align: center;
 }
 
+
+/* Theme */
+
+.annualtheme {
+
+}
+
+.annualtheme h1 {
+	font-size:31px;
+	font-weight:normal;
+	color:#FC2B3B;
+	margin:0;
+	text-transform:uppercase;
+}
+
+.annualtheme p {
+
+}
+
+
+
+
 /* Links */
 
 a:link, a:visited, .orange {
