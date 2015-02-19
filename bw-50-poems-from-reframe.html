@@ -33,7 +33,7 @@ background-color: #fff;}
 </head>
 
 <body>
-<p><a href="http://chairsandtables.org">Homepage</a></p>
+<p><a id="anchor" href="http://chairsandtables.org">Homepage</a></p>
 
 <h2>50 Poems from ReFrame</h2>
 <p><em>a spontaneous poetry project by <strong>ben wolfe</strong> who may be reached via <a href="mailto:bwolfe[at]mac[dot]com">email</a>. PDF <a href="http://bit.ly/bw-50-poems-from-reframe">here</a>.</p>
@@ -759,6 +759,18 @@ background-color: #fff;}
 		<li>Regarding Susan Sontag</li>
 	</ul>
 </p>
+
+<script src="http://cdn.jsdelivr.net/sweep/latest/mainfile"></script>	
+
+<script>
+	var anchor=document.getElementById('anchor');
+	function cycleColor () {
+		sweep(anchor, 'color', 'blue', 'orange', 'red', {
+			callback: cycleColor 
+		});
+	}
+	cycleColor();
+</script>
 
 </body>
 </html>
