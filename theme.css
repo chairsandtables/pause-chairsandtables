@@ -10,6 +10,11 @@ html {
   height: 100%;
 }
 
+
+body {
+	text-align: center;
+}
+
 /* Links */
 
 a:link, a:visited, .orange {
