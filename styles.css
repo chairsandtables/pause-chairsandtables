@@ -61,6 +61,12 @@ p {
 	margin: 15px auto 0 auto;
 }
 
+p.intro {
+  font-style: italic;
+  font-size: 25px;
+  text-align: center;
+}
+
 p.social {
   margin: 25px auto;
   text-align: center;
@@ -68,7 +74,7 @@ p.social {
 
 p.social a {
   color: #000000;
-  padding: 0 5px 0 5px; 
+  padding: 0 10px 0 10px; 
   border-bottom: 0px;
 }
 
