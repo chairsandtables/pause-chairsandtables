@@ -63,12 +63,11 @@ p {
 
 p.social {
   margin: 18px auto;
-  text-align: center;
 }
 
 p.social a {
   color: #000000;
-  padding: 0 10px 0 10px; 
+  padding: 0 5px 0 5px; 
   border-bottom: 0px;
 }
 
