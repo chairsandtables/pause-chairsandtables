@@ -61,12 +61,12 @@ p {
 	margin: 15px auto 0 auto;
 }
 
-p.italic {
-  font-size: 30px;
+p.social {
+  margin: 0 auto;
+  text-align: center;
 }
 
 p.social a {
-  margin: 0 auto;
   color: #000000;
   padding: 0 5px 0 5px; 
   border-bottom: 0px;
