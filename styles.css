@@ -61,14 +61,8 @@ p {
 	margin: 15px auto 0 auto;
 }
 
-p.intro {
-  font-style: italic;
-  font-size: 21px;
-  text-align: center;
-}
-
 p.social {
-  margin: 25px auto;
+  margin: 18px auto;
   text-align: center;
 }
 
