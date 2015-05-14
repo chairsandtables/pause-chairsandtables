@@ -99,14 +99,14 @@ img:hover {
     opacity: 1;
 }
 
-.fa a {
+a.social {
   color: #000000;
   padding: 0 5px 0 5px; 
   border-bottom: 0px;
 }
 
-.fa a:hover {
-  color: #094791;
+a.social:hover {
+  color: #0B6EFF;
   border-bottom: 0px;
 }
 
