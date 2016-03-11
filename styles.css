@@ -131,6 +131,10 @@ img:hover {
     opacity: 1;
 }
 
+.navigation a, a:link, a:visited {
+  color: #fff;
+}
+
 /* Black */
 
 .black a:link,
