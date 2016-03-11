@@ -131,7 +131,9 @@ img:hover {
     opacity: 1;
 }
 
-.navigation a, a:link, a:visited {
+.navigation a,
+.navigation a:link,
+.navigation a:visited {
   color: #fff;
 }
 
