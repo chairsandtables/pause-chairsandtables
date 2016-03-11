@@ -20,6 +20,27 @@ html {
 	font-weight: 400;
 }
 
+/* Navigation */
+
+#header .navigation {
+  float: left;
+}
+#header .navigation ul {
+  overflow: hidden;
+}
+#header .navigation li {
+  float: left;
+  margin: 0 30px 0 0;
+}
+#header .navigation li.pointer {
+  margin: 0 5px 0 -25px;
+}
+#header .navigation li.pointer .sprite {
+  display: block;
+  margin: 8px 0 0 0;
+  margin: 8px 5px 5px 5px;
+}
+
 body {
 	background-color: #fff;
 }
