@@ -43,7 +43,7 @@
 /* TYPE */
 
 	h1 { 
-		padding: 0.1em;
+		padding: 0.1em 0;
 		font-family: 'Open Sans';
 		font-weight: 700;
 		text-transform: uppercase;
@@ -100,7 +100,7 @@
 		border-bottom: 1px #ff9900 solid;
 	}
 
-/* LIST */
+/* FONT AWESOME */
 
 	.icon {
 		text-decoration: none;
@@ -237,7 +237,7 @@
 /* WHAT WE DO */
 
 	#what-we-do {
-		padding: 10em 0;
+		padding: 12em 0;
 		background-color: #fff;
 	}
 
@@ -265,9 +265,9 @@
 			-ms-justify-content: center;
 			justify-content: center;
 			list-style: none;
-			padding: 0;
 			width:80%;
 			margin: 0 auto;
+			padding: 0;
 		}
 
 			#what-we-do .list h4 {
@@ -383,7 +383,7 @@
 		position: relative;
 		width: 70%;
 		margin: 0 auto;
-		padding: 10em 0;
+		padding: 12em 0;
 		background-color: #fff;
 		text-align: center;
 	}
@@ -420,7 +420,7 @@
 		position: relative;
 		width: 70%;
 		margin: 0 auto;
-		padding: 10em 0;
+		padding: 12em 0;
 		background-color: #fff;
 		text-align: center;
 	}
@@ -544,7 +544,7 @@
 		-webkit-border-radius: 3px;
 		-moz-border-radius: 3px;
 		border-radius: 3px;
-		background-color: #FFC164;
+		background-color: #FFB039;
 		font-family: 'Open Sans';
 		font-weight: 300;
 		font-size: 1em;
@@ -553,7 +553,7 @@
 	}
 
 	#mc_embed_signup input.button:hover {
-		background-color: #FFB039;
+		background-color: #FFC164;
 	}
 
 	#mc_embed_signup .button:hover {
