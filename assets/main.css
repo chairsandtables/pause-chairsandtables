@@ -148,7 +148,12 @@
 
 		ul.icons a {
 			color: #000;
+			transition: all 0.2s ease-in-out 0s;
 		}
+
+			ul.icons a:hover {
+				color: #FFC164;
+			}
 
 			ul.icons li {
 				display: inline-block;
@@ -222,7 +227,12 @@
 					font-weight: 700;
 					text-decoration: none;
 					color: #000;
+					transition: all 0.2s ease-in-out 0s;
 				}
+
+					.orange-cell p.navigation a:hover {
+						color: #FFC164;
+					}
 
 /* FULL-WIDTH PHOTOS */
 
@@ -292,6 +302,11 @@
 				position: relative;
 				text-align: left;
 			}
+
+				#what-we-do .list li:hover.icon {
+					color: #FF9900;
+					transition: all 0.2s ease-in-out 0s;
+				}
 
 				#what-we-do .list li:nth-child(1) {
 					background-color: rgba(0, 0, 0, 0.035);
@@ -408,6 +423,16 @@
 		#current-project h2 {
 			text-align: center;
 		}
+
+			#current-project h2 a {
+				border: none;
+				transition: all 0.2s ease-in-out 0s;
+			}
+
+				#current-project h2 a:hover {
+					border: none;
+					color: #ff9900;
+				}
 
 		#current-project a {
 			text-decoration: none;
