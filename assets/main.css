@@ -57,7 +57,7 @@
 		font-weight: 700;
 		text-transform: uppercase;
 		font-size: 2em;
-		color: #000000;
+		color: #202020;
 	}
 
 	h3 {
@@ -66,7 +66,7 @@
 		font-weight: 300;
 		font-style: italic;
 		font-size: 2em;
-		color: #000000;
+		color: #202020;
 	}
 
 	h4 {
@@ -74,7 +74,7 @@
 		font-weight: 700;
 		font-size: 1.5em;
 		text-transform: uppercase;
-		color: #000000;
+		color: #202020;
 	}
 
 	p {
@@ -85,7 +85,7 @@
 		line-height: 1.25;
 		text-align: justify;
 		text-align-last: center;
-		color: #000000;
+		color: #202020;
 	}
 
 	i {
@@ -147,7 +147,7 @@
 		}
 
 		ul.icons a {
-			color: #000;
+			color: #202020;
 			transition: all 0.2s ease-in-out 0s;
 		}
 
@@ -208,12 +208,14 @@
 			text-align: center;
 			width: 60%;
 			margin: 0 auto;
+			color: #000;
 		}
 
 		.orange-cell p {
 			width: 60%;
 			margin: 0 auto;
 			text-align-last: center;
+			color: #000;
 		}
 
 			.orange-cell p.navigation {
@@ -226,8 +228,9 @@
 				.orange-cell p.navigation a {
 					font-weight: 700;
 					text-decoration: none;
-					color: #000;
+					color: #202020;
 					transition: all 0.2s ease-in-out 0s;
+					color: #000;
 				}
 
 					.orange-cell p.navigation a:hover {
@@ -236,13 +239,25 @@
 
 /* FULL-WIDTH PHOTOS */
 
-	#full-photo {
+	#full-photo-1 {
 		width: 100%;
+		height: 100vh;
+		overflow-y: hidden;
+		overflow: hidden;
+			background-size: cover;
+			background-position: center;
+			background-image: url('../img/IMG_9661-JCR-1920-web.jpg')
 	}
 
-		#full-photo img {
-			width: inherit;
-		}
+	#full-photo-2 {
+		width: 100%;
+		height: 100vh;
+		overflow-y: hidden;
+		overflow: hidden;
+			background-size: cover;
+			background-position: center;
+			background-image: url('../img/IMG_9553-JCR-1920-web.jpg')
+	}
 
 /* WHAT WE DO */
 
@@ -382,7 +397,7 @@
 					display: block;
 					width: 100%;
 					padding: 3em 0 1em 0;
-					border-top: solid 2px #000;
+					border-top: solid 2px #202020;
 					background-color: transparent !important;
 				}
 
@@ -427,6 +442,7 @@
 			#current-project h2 a {
 				border: none;
 				transition: all 0.2s ease-in-out 0s;
+				color: #202020;
 			}
 
 				#current-project h2 a:hover {
@@ -436,7 +452,7 @@
 
 		#current-project a {
 			text-decoration: none;
-			color: #000;
+			color: #202020;
 		}
 
 /* PAGE */
@@ -503,7 +519,7 @@
 		#page a {
 			border-bottom: 1px #555 solid;
 			text-decoration: none;
-			color: #000;
+			color: #202020;
 			transition: all 0.2s ease-in-out 0s;
 		}
 
@@ -573,7 +589,7 @@
 		font-family: 'Open Sans';
 		font-weight: 300;
 		font-size: 1em;
-		color: #000;
+		color: #202020;
 		transition: all 0.2s ease-in-out 0s;
 	}
 
