@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html class="evernoteSafari">
+<html>
 
 <head>
 	
@@ -8,277 +7,8 @@
 <meta name="generator" content="chairsandtables.org">
 
 <link href='http://fonts.googleapis.com/css?family=Gentium+Basic:400,400italic|Open+Sans:300,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="../../assets/css/vis.css" />
 <link rel="shortcut icon" href="../img/vis/chat-logo-web.gif" />
-
-<style type="text/css">
-
-/* CHAT COLOUR PALETTE */
-	
-	.chat-primary-1 { background-color: #FFC164 }
-	.chat-primary-2 { background-color: #FFB039 }
-	.chat-primary-0 { background-color: #FF9900 }
-	.chat-primary-3 { background-color: #C67600 }
-	.chat-primary-4 { background-color: #9B5D00 }
-
-	.chat-complement-1 { background-color: #5387BD }
-	.chat-complement-2 { background-color: #316DAC }
-	.chat-complement-0 { background-color: #0D58A6 }
-	.chat-complement-3 { background-color: #094481 }
-	.chat-complement-4 { background-color: #063565 }
-
-/* FYL COLOUR PALETTE */
-	
-	.fyl-primary-1 { background-color: #7AA7D5 }
-	.fyl-primary-2 { background-color: #4F86BE }
-	.fyl-primary-0 { background-color: #316DAC }
-	.fyl-primary-3 { background-color: #1058A3 }
-	.fyl-primary-4 { background-color: #0A417A }
-
-	.fyl-complement-1 { background-color: #FF8764 }
-	.fyl-complement-2 { background-color: #FF6639 }
-	.fyl-complement-0 { background-color: #FF3900 }
-	.fyl-complement-3 { background-color: #C62C00 }
-	.fyl-complement-4 { background-color: #9B2300 }
-
-/* EXPLORE COLOUR PALETTE */
-	
-	.explore-primary-1 { background-color: #87CF69 }
-	.explore-primary-2 { background-color: #55A632 }
-	.explore-primary-0 { background-color: #358413 }
-	.explore-primary-3 { background-color: #1B5B00 }
-	.explore-primary-4 { background-color: #0D2D00 }
-
-	.explore-complement-1 { background-color: #F1F1F1 }
-	.explore-complement-2 { background-color: #C2C2C2 }
-	.explore-complement-0 { background-color: #919191 }
-	.explore-complement-3 { background-color: #616261 }
-	.explore-complement-4 { background-color: #232423 }
-
-/* VIS TYPE */
-	
-	body {
-		margin:0; padding: 20px;
-		background: #fff;
-		color: #000;
-		font: 16px/1.33 "Helvetica Neue", Helvetica, sans-serif;
-		text-align:left;
-		max-width: 800px;
-	}
-
-	tbody {
-		font-size: 12px;
-	}
-
-	h1 {
-		margin: 25px 0 85px 0;
-		font-size: 150px;
-		line-height: 150px;
-	}
-
-	h2 {
-		margin: 50px 0 25px 0;
-		font-size: 75px;
-		line-height: 75px;
-		width: 900px;
-	}
-
-		h2 a {
-			color: #000000;
-			text-decoration: underline;
-		}
-
-	h3 {
-		margin: 0;
-		padding: 0;
-		font-size: 25px;
-	}
-
-		h3 a {
-			color: #000000;
-			text-decoration: underline;
-		}
-
-	p {
-		margin: 0;
-		padding: 0;
-		font-size: 12px;
-	}
-
-	img {
-		margin: 30px 0 30px 30px;
-	}
-	
-/* VIS OTHER */
-	
-	.color-table {
-		margin: 30px 30px 75px;
-		border-collapse: collapse;
-		border: none;
-		border-spacing:0;
-	}
-	
-		.color-table th {
-			padding: 0 1em 0 0;
-			border: none;
-			text-align: right;
-			vertical-align: middle;
-			font-size: 100%;
-			font-weight: normal;
-		}
-
-		.color-table td.sample {
-			width: 6em;
-			height:6em;
-			padding: 10px;
-			border: 1px solid white;
-			text-align:center;
-			vertical-align:middle;
-			font-size:90%;
-			white-space:nowrap;
-		}
-
-			.color-table td.sample-0 {
-				width: 18em;
-			}
-
-		.color-table.small td.sample {
-			width: 3em;
-			height: 3em;
-			padding: 0;
-			border: none;
-			margin-bottom: -25px;
-		}
-
-			.color-table.small td.sample-0 {
-				width: 9em;
-			}
-
-		.color-table .white { margin-bottom:0.2em; color:white }
-		.color-table .black { margin-top:0.2em; color:black }
-
-	hr {
-		margin: 2em 0 1em 0;
-		border: none;
-		border-bottom: 1px solid silver;
-	}
-	
-	#footer {
-		padding: 1em;
-		font-size: 12px;
-		text-align: center;
-	}
-
-/* CHAT */
-	
-.chat-type {
-	padding: 20px 0;
-}
-	
-.chat-type h1 { 
-	margin: 0;
-	padding: 0.1em 0 0.5em 0;
-	font-family: 'Open Sans';
-	font-weight: 700;
-	text-transform: uppercase;
-	font-size: 4em;
-	line-height: 1;
-	color: #000;
-}
-
-.chat-type h2 {
-	margin: 0;
-	padding: 0.1em 0 0 0;
-	font-family: 'Open Sans';
-	font-weight: 700;
-	text-transform: uppercase;
-	font-size: 2em;
-	line-height: 1;
-	color: #000000;
-}
-
-.chat-type h3 {
-	margin: 0;
-	padding: 0.2em 0 0 0;
-	font-family: 'Gentium Basic';
-	font-weight: 300;
-	font-style: italic;
-	font-size: 2em;
-	color: #000000;
-}
-
-.chat-type p {
-	margin: 0;
-	padding: 1em 0;
-	font-family: 'Open Sans';
-	font-weight: 300;
-	font-size: 1.25em;
-	line-height: 1.25;
-	text-align: justify;
-	text-align-last: left;
-	color: #000000;
-}
-	
-/* FYL */
-
-	.fyl-header {
-		margin: 30px 30px 0 0;
-		font-family: 'Arial', sans-serif;
-		font-weight: 700;
-		font-size: 32px;
-	}
-	.fyl-body {
-		margin: 10px 30px 75px 0;
-		-webkit-font-smoothing: antialiased;
-		font-family: 'Arial', sans-serif;
-		font-size: 16px;
-	}
-	
-/* EXPLORE */
-	
-	.explore-header {
-		margin: 30px 30px 0 0;
-		font-family: 'Helvetica Neue';
-		font-weight: bold;
-		font-size: 14px;
-		
-	}
-	.explore-body {
-		margin: 10px 30px 75px 0;
-		font-family: 'Helvetica Neue';
-		font-size: 12px;
-	}
-
-</style>
-
-<style>.pkt_added {text-decoration:none !important;}</style><style>[touch-action="none"]{ -ms-touch-action: none; touch-action: none; }[touch-action="pan-x"]{ -ms-touch-action: pan-x; touch-action: pan-x; }[touch-action="pan-y"]{ -ms-touch-action: pan-y; touch-action: pan-y; }[touch-action="scroll"],[touch-action="pan-x pan-y"],[touch-action="pan-y pan-x"]{ -ms-touch-action: pan-x pan-y; touch-action: pan-x pan-y; }</style><style id="style-1-cropbar-clipper">/* Copyright 2014 Evernote Corporation. All rights reserved. */
-.en-markup-crop-options {
-    top: 18px !important;
-    left: 50% !important;
-    margin-left: -90px !important;
-    width: 180px !important;
-    border: 2px rgba(255,255,255,.38) solid !important;
-    border-radius: 4px !important;
-}
-
-.en-markup-crop-options div div:first-of-type {
-    margin-left: 0px !important;
-}
-</style><style type="text/css"></style>
-
-<style>.pkt_added {text-decoration:none !important;}</style><style>[touch-action="none"]{ -ms-touch-action: none; touch-action: none; }[touch-action="pan-x"]{ -ms-touch-action: pan-x; touch-action: pan-x; }[touch-action="pan-y"]{ -ms-touch-action: pan-y; touch-action: pan-y; }[touch-action="scroll"],[touch-action="pan-x pan-y"],[touch-action="pan-y pan-x"]{ -ms-touch-action: pan-x pan-y; touch-action: pan-x pan-y; }</style><style id="style-1-cropbar-clipper">/* Copyright 2014 Evernote Corporation. All rights reserved. */
-.en-markup-crop-options {
-    top: 18px !important;
-    left: 50% !important;
-    margin-left: -90px !important;
-    width: 180px !important;
-    border: 2px rgba(255,255,255,.38) solid !important;
-    border-radius: 4px !important;
-}
-
-.en-markup-crop-options div div:first-of-type {
-    margin-left: 0px !important;
-}
-</style><style type="text/css"></style>
 
 </head>
 
@@ -316,14 +46,6 @@
 						<div class="white">#FF9900</div>
 						<div class="black">#FF9900</div>
 					</td>
-					<td class="sample sample-3 chat-primary-3">
-						<div class="white">#C67600</div>
-						<div class="black">#C67600</div>
-					</td>
-					<td class="sample sample-4 chat-primary-4">
-						<div class="white">#9B5D00</div>
-						<div class="black">#9B5D00</div>
-					</td>
 				</tr>
 				<tr>
 					<th>Complement colour:</th>
@@ -356,8 +78,6 @@
 					<td class="sample sample-1 chat-primary-1"></td>
 					<td class="sample sample-2 chat-primary-2"></td>
 					<td class="sample sample-0 chat-primary-0"></td>
-					<td class="sample sample-3 chat-primary-3"></td>
-					<td class="sample sample-4 chat-primary-4"></td>
 				</tr>
 				<tr>
 					<th>Complement colour:</th>
@@ -552,7 +272,7 @@
 
 	<hr>
 
-	<p id="footer">Design by <a href="http://jonathonreed.com/">Jonathon</a> · Last updated 20 Dec 2016</p>
+	<p id="footer">Design by <a href="http://jonathonreed.com/">Jonathon</a> · Last updated 9 Feb 2017</p>
 			
 </body>
 </html>
