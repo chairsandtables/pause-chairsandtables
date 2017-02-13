@@ -224,6 +224,11 @@
 			text-align: center;
 		}
 
+			#white .white-cell h2 a {
+				color: #202020;
+				text-decoration: none;
+			}
+
 /* ORANGE */
 
 	#orange {
