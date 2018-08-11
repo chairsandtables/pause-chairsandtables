@@ -14,6 +14,10 @@
 		font: inherit;
 	}
 
+	blockquote {
+		background-color: #6887b8;
+	}
+
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
